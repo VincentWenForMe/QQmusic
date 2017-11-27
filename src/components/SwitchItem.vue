@@ -15,11 +15,18 @@
 <style>
   .switchItem {
     display: flex;
+    line-height: 36px;
+    margin-bottom: 10px;
   }
   
   .switchItem a {
     flex: 1;
     text-align: center;
     font-size: 14px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  }
+  
+  .switchItem a.active {
+    border-bottom-color: rgba(255, 255, 255, 0.3);
   }
 </style>

@@ -2,7 +2,6 @@
   <div class="index">
     <switchItem></switchItem>
     <router-view></router-view>
-    index
   </div>
 </template>
 
