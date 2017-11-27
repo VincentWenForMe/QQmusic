@@ -1,12 +1,12 @@
 <template>
-  <div class="hello">
+  <div class="recommend">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2><router-link to="/Detail">Essential Links</router-link></h2>
   </div>
 </template>
 <script>
   export default {
-    name: 'HelloWorld',
+    name: 'recommend',
     data() {
       return {
         msg: 'Welcome to Your Vue.js App'
