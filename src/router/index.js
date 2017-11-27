@@ -15,28 +15,25 @@ export default new Router({
       path: '/',
       name: 'Index',
       component: Index,
+      redirect: '/Recommend',
       children: [
         {
-          path: '/',
+          path: 'Recommend',
           name: 'Recommend',
           component: Recommend
         },
         {
-          path: '/Recommend',
-          component: Recommend
-        },
-        {
-          path: '/MV',
+          path: 'MV',
           name: 'MV',
           component: MV
         },
         {
-          path: '/Sorting',
+          path: 'Sorting',
           name: 'Sorting',
           component: Sorting
         },
         {
-          path: '/FM',
+          path: 'FM',
           name: 'FM',
           component: FM
         }
